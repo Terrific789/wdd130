@@ -106,7 +106,7 @@ article p {
     width: 100%; /* Adjust the width of the text block */
     padding: 20px 10px 5px 10px;
     font-weight: 600;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); */
     color: var(--secondary-color); /* Ensure good contrast */
     border-radius: 5px; /* Optional: soft edges */
     text-align: justify; /* Make the text more readable */
