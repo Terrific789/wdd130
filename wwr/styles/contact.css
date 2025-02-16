@@ -292,3 +292,96 @@ footer .sociallinks a{
     width: 40px;
     height: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        height: auto;
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img{
+        width: 100px;
+        height: 60px;
+        bottom: 0.5px;
+        padding: 10px 0px 0px 20px;
+    }
+
+    main{
+        margin: 10px auto;
+        width: 98%;
+    }
+
+    nav{
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+
+    nav ul li a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero{
+        width: 100%;
+    }
+
+    .team img {
+        width: 100px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .input-text{
+        height: 35px;
+        padding-left: 30px;
+        display: flex;
+    }
+    
+    .input-text label{
+        width: 80px;
+        display: inline-block;
+    }
+    
+    .input-text input{
+        height: 30px;
+        width: 140px;
+        border-radius: 6px;
+    }
+
+    footer {
+        display: grid;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+        grid-template-columns: 1fr 1fr auto;
+    }
+    
+    footer p{
+        grid-column: 1/4;
+    }
+
+    .foot-a{
+        margin-top: 10px;
+    }
+
+    .foot-b{
+        margin-bottom: 10px;
+    }
+
+}
