@@ -866,6 +866,10 @@ footer nav{
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
+    header{
+        grid-template-columns: 1fr;
+    }
+    
     nav ul{
         flex-direction: column;
     }
